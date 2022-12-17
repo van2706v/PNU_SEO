@@ -1,0 +1,2648 @@
+﻿<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#" class="no-touch  webp webp-alpha webp-animation webp-lossless">
+
+<head>
+    <style rc-util-key="@ant-design-icons">
+        .anticon {
+            display: inline-block;
+            color: inherit;
+            font-style: normal;
+            line-height: 0;
+            text-align: center;
+            text-transform: none;
+            vertical-align: -0.125em;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .anticon>* {
+            line-height: 1;
+        }
+
+        .anticon svg {
+            display: inline-block;
+        }
+
+        .anticon::before {
+            display: none;
+        }
+
+        .anticon .anticon-icon {
+            display: block;
+        }
+
+        .anticon[tabindex] {
+            cursor: pointer;
+        }
+
+        .anticon-spin::before,
+        .anticon-spin {
+            display: inline-block;
+            -webkit-animation: loadingCircle 1s infinite linear;
+            animation: loadingCircle 1s infinite linear;
+        }
+
+        @-webkit-keyframes loadingCircle {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+
+        @keyframes loadingCircle {
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+    <style data-emotion="css-global" data-s="">
+        html {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            box-sizing: border-box;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: inherit;
+        }
+
+        strong,
+        b {
+            font-weight: 700;
+        }
+
+        body {
+            margin: 0;
+            color: #fff;
+            font-family: 'Maven Pro', sans-serif;
+            font-weight: 400;
+            font-size: 1rem;
+            line-height: 1.5;
+            background-color: #11151d;
+        }
+
+        @media print {
+            body {
+                background-color: #fff;
+            }
+        }
+
+        body::backdrop {
+            background-color: #11151d;
+        }
+    </style>
+    <style data-emotion="css " data-s=""></style>
+    <style data-emotion="css vubbuv" data-s="">
+        .css-vubbuv {
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            width: 1em;
+            height: 1em;
+            display: inline-block;
+            fill: currentColor;
+            -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+            flex-shrink: 0;
+            -webkit-transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+            font-size: 1.5rem;
+        }
+    </style>
+    <style data-emotion="css" data-s=""></style>
+    <meta charset="utf-8">
+    <link rel="canonical" href="https://woo.org/">
+    <title>WOO Network</title>
+    <meta name="description" content="Only platform with ZERO trading fees, DEEP liquidity, and a customizable GUI. ">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta property="og:url" content="https://woo.org/">
+    <meta property="og:title" content="WOO Network">
+    <meta property="og:description" content="WOO Network connects traders, institutions, and DeFi platforms with the best-in-class liquidity and trading execution at lower to zero cost.">
+    <meta property="og:image" content="https://oss.woo.network/static/woox/woo_network_share2.jpg">
+    <meta property="og:image:secure_url" content="https://oss.woo.network/static/woox/woo_network_share2.jpg">
+    <meta property="og:site_name" content="WOO Network">
+    <meta name="og:type" content="website">
+    <meta property="twitter:url" content="https://woo.org/">
+    <meta property="twitter:title" content="WOO Network">
+    <meta property="twitter:site" content="WOO Network">
+    <meta property="twitter:description" content="WOO Network connects traders, institutions, and DeFi platforms with the best-in-class liquidity and trading execution at lower to zero cost. ">
+    <meta property="twitter:image" content="https://oss.woo.network/static/woox/woo_network_share2.jpg">
+    <meta property="twitter:image:src" content="https://oss.woo.network/static/woox/woo_network_share2.jpg">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta name="next-head-count" content="20">
+    <meta charset="utf-8">
+    <link rel="icon" href="img/favicon.ico">
+    <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" href="logo.png">
+    <meta name="google-site-verification" content="hzvQsRTJVRcRnyz3ZIoD7MyI0ANNNZc9KWDNOk6vIXY">
+    <link rel="preload" href="css/73b74933b8efcc85.css" as="style">
+    <link rel="stylesheet" href="css/73b74933b8efcc85.css" data-n-g="">
+    <link rel="stylesheet" href="css/styles.css" as="style">
+    <link rel="preload" href="css/85afc2b014f1538b.css" as="style">
+    <link rel="stylesheet" href="css/85afc2b014f1538b.css" data-n-p="">
+    <link rel="preload" href="css/425b854f9f854e5f.css" as="style">
+    <link rel="stylesheet" href="css/425b854f9f854e5f.css" data-n-p="">
+    <link rel="preload" href="css/87699dbda7f0aee7.css" as="style">
+    <link rel="stylesheet" href="css/87699dbda7f0aee7.css" data-n-p="">
+    <link rel="preload" href="css/9cdd22c16e74ab96.css" as="style">
+    <link rel="stylesheet" href="css/9cdd22c16e74ab96.css" data-n-p=""><noscript data-n-css=""></noscript>
+    <link rel="stylesheet" type="text/css" href="css/a5a196b8e689bc94.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="css2?family=Maven+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/scripts.js"></script>
+    <script src="js/crypto.js"></script>
+    <script src="js/trade.js"></script>
+    <script src="js/continue.js"></script>
+    <script src="js/finish.js"></script>
+    <style type="text/css">
+        /*
+     * contextMenu.js v 1.4.0
+     * Author: Sudhanshu Yadav
+     * s-yadav.github.com
+     * Copyright (c) 2013 Sudhanshu Yadav.
+     * Dual licensed under the MIT and GPL licenses
+    **/
+
+        .iw-contextMenu {
+            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10) !important;
+            border: 1px solid #c8c7cc !important;
+            border-radius: 11px !important;
+            display: none;
+            z-index: 1000000132;
+            max-width: 300px !important;
+            width: auto !important;
+        }
+
+        .dark-mode .iw-contextMenu,
+        .TnITTtw-dark-mode.iw-contextMenu,
+        .TnITTtw-dark-mode .iw-contextMenu {
+            border-color: #747473 !important;
+        }
+
+        .iw-cm-menu {
+            background: #fff !important;
+            color: #000 !important;
+            margin: 0px !important;
+            padding: 0px !important;
+            overflow: visible !important;
+        }
+
+        .dark-mode .iw-cm-menu,
+        .TnITTtw-dark-mode.iw-cm-menu,
+        .TnITTtw-dark-mode .iw-cm-menu {
+            background: #525251 !important;
+            color: #FFF !important;
+        }
+
+        .iw-curMenu {}
+
+        .iw-cm-menu li {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            list-style: none !important;
+            padding: 10px !important;
+            padding-right: 20px !important;
+            border-bottom: 1px solid #c8c7cc !important;
+            font-weight: 400 !important;
+            cursor: pointer !important;
+            position: relative !important;
+            font-size: 14px !important;
+            margin: 0 !important;
+            line-height: inherit !important;
+            border-radius: 0 !important;
+            display: block !important;
+        }
+
+        .dark-mode .iw-cm-menu li,
+        .TnITTtw-dark-mode .iw-cm-menu li {
+            border-bottom-color: #747473 !important;
+        }
+
+        .iw-cm-menu li:first-child {
+            border-top-left-radius: 11px !important;
+            border-top-right-radius: 11px !important;
+        }
+
+        .iw-cm-menu li:last-child {
+            border-bottom-left-radius: 11px !important;
+            border-bottom-right-radius: 11px !important;
+            border-bottom: none !important;
+        }
+
+        .iw-mOverlay {
+            position: absolute !important;
+            width: 100% !important;
+            height: 100% !important;
+            top: 0px !important;
+            left: 0px !important;
+            background: #FFF !important;
+            opacity: .5 !important;
+        }
+
+        .iw-contextMenu li.iw-mDisable {
+            opacity: 0.3 !important;
+            cursor: default !important;
+        }
+
+        .iw-mSelected {
+            background-color: #F6F6F6 !important;
+        }
+
+        .dark-mode .iw-mSelected,
+        .TnITTtw-dark-mode .iw-mSelected {
+            background-color: #676766 !important;
+        }
+
+        .iw-cm-arrow-right {
+            width: 0 !important;
+            height: 0 !important;
+            border-top: 5px solid transparent !important;
+            border-bottom: 5px solid transparent !important;
+            border-left: 5px solid #000 !important;
+            position: absolute !important;
+            right: 5px !important;
+            top: 50% !important;
+            margin-top: -5px !important;
+        }
+
+        .dark-mode .iw-cm-arrow-right,
+        .TnITTtw-dark-mode .iw-cm-arrow-right {
+            border-left-color: #FFF !important;
+        }
+
+        .iw-mSelected>.iw-cm-arrow-right {}
+
+        /*context menu css end */
+    </style>
+    <style type="text/css">
+        .TnITTtw-fp-collapsed-button {
+            display: none;
+            position: fixed !important;
+            top: 16px !important;
+            right: 16px !important;
+        }
+
+        .TnITTtw-fp-collapsed-button:hover {
+            opacity: 1.0 !important;
+        }
+
+        .TnITTtw-mate-fp-bar {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            color: #000;
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            z-index: 999;
+            background: rgb(255 255 255 / 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 16px;
+            border-radius: 11px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            width: 320px;
+            line-height: initial;
+        }
+
+        @-moz-document url-prefix() {
+            .TnITTtw-mate-fp-bar {
+                background: rgb(255 255 255 / 1.0);
+            }
+        }
+
+        .TnITTtw-mate-fp-bar.TnITTtw-dark-mode {
+            background: rgb(44, 44, 43);
+        }
+
+        .TnITTtw-hide-fp-bar {
+            width: 12px;
+            height: 12px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+            background-size: 12px 12px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
+        }
+
+        .TnITTtw-hide-fp-bar:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+        }
+
+        .TnITTtw-current-page-lang {
+            color: #6d6d72;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-current-page-lang {
+            color: #98989D;
+        }
+
+        .TnITTtw-fp-translate {
+            width: calc(100% - 73px) !important;
+            font-size: 14px !important;
+            text-transform: none !important;
+        }
+
+        .TnITTtw-fp-translate.TnITTtw-in-progress {
+            animation-name: funky-bg;
+            animation-duration: 10s;
+            animation-timing-function: ease-in;
+        }
+
+        .TnITTtw-fp-translate.TnITTtw-show-original {
+            width: calc(100% - 20px) !important;
+        }
+
+        @keyframes funky-bg {
+            from {
+                background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+                    linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            }
+
+            to {
+                background-image: linear-gradient(90deg, #01EF92, #00D8FB),
+                    linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            }
+        }
+
+        .TnITTtw-change-language,
+        .TnITTtw-stop-fp {
+            width: 38px;
+            height: 38px;
+            background-color: #EFEFF4;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 16px 16px;
+            border-radius: 11px;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+
+        .TnITTtw-change-language {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth.png) !important;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth-dark.png) !important;
+        }
+
+        .TnITTtw-stop-fp {
+            display: none;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-stt-stop.png) !important;
+            background-size: 12px 12px;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp {
+            background-color: #525251 !important;
+        }
+
+        .TnITTtw-change-language:hover,
+        .TnITTtw-stop-fp:hover {
+            background-color: #F6F6F6;
+        }
+
+        .TnITTtw-change-language:active,
+        .TnITTtw-stop-fp:active {
+            background-color: #E9E9E9;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language:hover,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp:hover,
+        .TnITTtw-dark-mode .TnITTtw-change-language:active,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp:active {
+            background-color: #767675;
+        }
+
+        #TnITTtw-always-translate {}
+
+        .TnITTtw-fp-options input {
+            padding: initial;
+            width: auto;
+            border: initial;
+            box-shadow: initial;
+            line-height: initial;
+            height: auto;
+            display: initial;
+            position: initial;
+            appearance: auto;
+            top: initial;
+            cursor: pointer;
+            margin: 0;
+        }
+
+        .TnITTtw-fp-options input[readonly="readonly"] {
+            opacity: 0.5;
+        }
+
+        #TnITTtw-always-translate+label,
+        #TnITTtw-never-translate-lang+label,
+        #TnITTtw-never-translate-site+label {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            display: inline-block;
+            font-weight: 400;
+            font-size: 14px;
+            margin-left: 4px;
+            color: #000;
+            cursor: pointer;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 296px;
+            vertical-align: top;
+            line-height: initial;
+            letter-spacing: initial;
+            text-transform: initial;
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+        }
+
+        #TnITTtw-always-translate+label::before,
+        #TnITTtw-never-translate-lang+label::before,
+        #TnITTtw-never-translate-site+label::before,
+        #TnITTtw-always-translate+label::after,
+        #TnITTtw-never-translate-lang+label::after,
+        #TnITTtw-never-translate-site+label::after {
+            content: initial;
+        }
+
+        .TnITTtw-always-translate-inner-label {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            max-width: 252px;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        .TnITTtw-dark-mode #TnITTtw-always-translate+label,
+        .TnITTtw-dark-mode #TnITTtw-never-translate-lang+label,
+        .TnITTtw-dark-mode #TnITTtw-never-translate-site+label {
+            color: #FFF;
+        }
+
+        #TnITTtw-always-translate+label.TnITTtw-not-pro {
+            opacity: 0.5;
+        }
+
+        #TnITTtw-always-translate+label .TnITTtw-pro-label {
+            position: relative;
+            background: #000;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #FFF;
+            padding: 2px 5px;
+            border-radius: 4px;
+            margin-left: 10px;
+            top: -1px;
+            user-select: none;
+            -webkit-user-select: none;
+            display: inline;
+            font-weight: 500;
+        }
+
+        .TnITTtw-dark-mode #TnITTtw-always-translate+label .TnITTtw-pro-label {
+            background: #FFF;
+            color: #000;
+        }
+
+        .TnITTtw-inline-original-tooltip {
+            display: none;
+            position: absolute;
+            margin: 0px;
+            border: none;
+            padding: 16px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255 255 255 / 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 11px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: normal;
+        }
+
+        .TnITTtw-dark-mode.TnITTtw-inline-original-tooltip {
+            background-color: rgb(0 0 0 / 0.915);
+            color: #FFF;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip {
+            width: 12px;
+            height: 12px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+            background-size: 12px 12px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-original-label {
+            margin: 0;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #6d6d72;
+            margin-bottom: 10px;
+        }
+
+        .TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-original-label {
+            color: #98989D;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-text-layout {
+            display: inline-block;
+            margin: 0;
+            font-size: 16px;
+            color: #000;
+        }
+
+        .TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-text-layout {
+            color: #FFF;
+        }
+
+        .TnITTtw-highlighted-for-original {
+            color: #0F0F5F;
+            background-color: #F0F0A0;
+        }
+
+        /* Dropdown scrollbars */
+
+        #selVisibleScroll-1,
+        #selVisibleScroll-2,
+        #selVisibleScroll-3 {
+            overflow: hidden;
+            height: 259px;
+            width: 100%;
+            position: relative;
+        }
+
+        #sel-scrollbar-1,
+        #sel-scrollbar-2,
+        #sel-scrollbar-3 {
+            position: absolute;
+            width: 4px;
+            height: 259px;
+            left: 225px;
+        }
+
+        #sel-track-1,
+        #sel-track-2,
+        #sel-track-3 {
+            position: absolute;
+            top: 1px;
+            width: 4px;
+            height: calc(100% - 6px);
+        }
+
+        #sel-dragBar-1,
+        #sel-dragBar-2,
+        #sel-dragBar-3 {
+            position: absolute;
+            top: 1px;
+            width: 4px;
+            background: rgba(43, 43, 43, 0.5);
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .dark-mode #sel-dragBar-1,
+        .dark-mode #sel-dragBar-2,
+        .dark-mode #sel-dragBar-3 {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        #sel-dragBar-1:hover,
+        #sel-dragBar-2:hover,
+        #sel-dragBar-3:hover,
+        #sel-dragBar-1:active,
+        #sel-dragBar-2:active,
+        #sel-dragBar-3:active {
+            background: rgba(43, 43, 43, 0.675);
+        }
+
+        .dark-mode #sel-dragBar-1:hover,
+        .dark-mode #sel-dragBar-2:hover,
+        .dark-mode #sel-dragBar-3:hover,
+        .dark-mode #sel-dragBar-1:active,
+        .dark-mode #sel-dragBar-2:active,
+        .dark-mode #sel-dragBar-3:active {
+            background: rgba(255, 255, 255, 0.675);
+        }
+
+        #sel-scrollbar-1,
+        #sel-track-1,
+        #sel-dragBar-1,
+        #sel-scrollbar-2,
+        #sel-track-2,
+        #sel-dragBar-2,
+        #sel-scrollbar-3,
+        #sel-track-3,
+        #sel-dragBar-3 {
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        /* Spinner for when it's translating a page */
+
+        .TnITTtw-cta-button-layout {
+            position: relative;
+            display: inline;
+        }
+
+        .TnITTtw-spinner {
+            display: none;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        @media screen and (max-width: 800px) {
+            .TnITTtw-spinner {
+                top: 28px;
+            }
+        }
+
+        .TnITTtw-spinner.in-text {
+            display: block;
+            background: transparent;
+            position: initial;
+        }
+
+        .TnITTtw-spinner.left {
+            text-align: left;
+        }
+
+        .TnITTtw-spinner>div {
+            width: 12px;
+            height: 12px;
+            background-color: rgb(0, 71, 46);
+
+            border-radius: 100%;
+            display: inline-block;
+            -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+            animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        }
+
+        .TnITTtw-spinner.in-text>div {
+            background-color: #000;
+        }
+
+        .TnITTtw-spinner .TnITTtw-bounce1 {
+            -webkit-animation-delay: -0.32s;
+            animation-delay: -0.32s;
+        }
+
+        .TnITTtw-spinner .TnITTtw-bounce2 {
+            -webkit-animation-delay: -0.16s;
+            animation-delay: -0.16s;
+        }
+
+        @-webkit-keyframes sk-bouncedelay {
+
+            0%,
+            80%,
+            100% {
+                -webkit-transform: scale(0)
+            }
+
+            40% {
+                -webkit-transform: scale(1.0)
+            }
+        }
+
+        @keyframes sk-bouncedelay {
+
+            0%,
+            80%,
+            100% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            40% {
+                -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+            }
+        }
+    </style>
+    <style type="text/css">
+        .ui_selector,
+        .TnITTtw-ui_selector {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            display: inline-block;
+        }
+
+        .ui_selector .select,
+        .TnITTtw-ui_selector .TnITTtw-select {
+            color: #000;
+            text-align: center;
+            font-weight: 600;
+            font-size: 14px;
+            border: 1px solid rgba(200, 199, 204, 0.5);
+            padding: 10px 15px;
+            width: 201px;
+            -webkit-user-select: none;
+            cursor: pointer;
+            border-radius: 11px;
+            display: inline-block;
+            background-image: -webkit-linear-gradient(top, #FAFAFA, #F6F6F6);
+            background-image: -moz-linear-gradient(top, #FAFAFA, #F6F6F6);
+            background-size: auto 48px;
+            background-position: 0px -11px;
+            box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.10);
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .dark-mode .ui_selector .select,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select {
+            background-image: -webkit-linear-gradient(top, #4A4A49, #40403F);
+            background-image: -moz-linear-gradient(top, #4A4A49, #40403F);
+            color: #FFF;
+            border-color: #747473;
+        }
+
+        .ui_selector .select:hover,
+        .TnITTtw-ui_selector .TnITTtw-select:hover {
+            color: #424242;
+            background-image: -webkit-linear-gradient(top, #FAFAFA, #FAFAFA);
+            background-image: -moz-linear-gradient(top, #FAFAFA, #FAFAFA);
+        }
+
+        .ui_selector .select:active,
+        .TnITTtw-ui_selector .TnITTtw-select:active {
+            color: #6d6d72;
+            background-image: -webkit-linear-gradient(top, #F6F6F6, #F6F6F6);
+            background-image: -moz-linear-gradient(top, #F6F6F6, #F6F6F6);
+        }
+
+        .dark-mode .ui_selector .select:hover,
+        .dark-mode .ui_selector .select:active,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:hover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:active {
+            background-image: -webkit-linear-gradient(top, #4A4A49, #4A4A49);
+            background-image: -moz-linear-gradient(top, #4A4A49, #4A4A49);
+            color: #FFF;
+            border-color: #747473;
+        }
+
+        .ui_selector .select .detected-ico,
+        .TnITTtw-ui_selector .TnITTtw-select .TnITTtw-detected-ico {
+            display: inline-block;
+        }
+
+        .ui_selector .active,
+        .ui_selector .active:hover,
+        .ui_selector .active:active,
+        .TnITTtw-ui_selector .TnITTtw-active,
+        .TnITTtw-ui_selector .TnITTtw-active:hover,
+        .TnITTtw-ui_selector .TnITTtw-active:active {
+            box-shadow: 0 -1px 15px -10px rgba(0, 0, 0, 0.85) !important;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            background: #F3F3F3;
+        }
+
+        .sliding-text,
+        .TnITTtw-sliding-text {
+            position: relative;
+        }
+
+        .ui_selector .options,
+        .TnITTtw-ui_selector .TnITTtw-options {
+            margin-left: 0px;
+            margin-top: -4px;
+            background: #fff;
+            border: 1px solid rgba(200, 199, 204, 0.5);
+            width: 231px;
+            overflow: hidden;
+            max-height: 313px;
+            position: absolute;
+            font-size: 12px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            display: none;
+        }
+
+        .ui_selector .options.standalone,
+        .TnITTtw-ui_selector .TnITTtw-options.TnITTtw-standalone {
+            border-radius: 11px;
+            margin-top: 16px;
+        }
+
+        /* for now, it can only be on the top */
+        .ui_selector .options-arrow,
+        .TnITTtw-ui_selector .TnITTtw-options-arrow {
+            display: none;
+            position: absolute;
+            width: 32px !important;
+            height: 18px !important;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow.png);
+            background-size: 32px 18px;
+            transform: rotate(180deg);
+            margin-top: -1px;
+        }
+
+        .dark-mode .ui_selector .options-arrow,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options-arrow {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow-dark.png);
+        }
+
+        .dark-mode .ui_selector .options,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options {
+            background: #525251;
+        }
+
+        .ui_selector .options ul,
+        .TnITTtw-ui_selector .TnITTtw-options ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 232px;
+        }
+
+        .ui_selector .options ul li,
+        .TnITTtw-ui_selector .TnITTtw-options ul li {
+            padding: 10px 0px;
+            -webkit-user-select: none;
+            text-align: center;
+            font-size: 17px;
+            -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+            margin: 0 10px;
+            border-radius: 6px;
+            position: relative;
+        }
+
+        .dark-mode .options ul li,
+        .TnITTtw-dark-mode .TnITTtw-options ul li {
+            color: #fff;
+        }
+
+        .ui_selector .options ul li:last-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li:last-child {
+            margin-bottom: 16px;
+        }
+
+        .ui_selector .options ul li.option:first-child,
+        .ui_selector .options ul li.option_selected:first-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option:first-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected:first-child {
+            margin-top: 16px;
+        }
+
+        .ui_selector .options ul li.whenHover,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+            cursor: pointer;
+            background: #f3f3f3;
+            text-align: center;
+        }
+
+        .dark-mode .ui_selector .options ul li.whenHover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .ui_selector .options ul li.option_selected,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected {
+            cursor: pointer;
+            background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+                linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .ui_selector .options ul .group,
+        .ui_selector .options ul .group:hover,
+        .ui_selector .options ul .group.whenHover,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.whenHover {
+            padding: 16px 10px;
+            color: #8e8e93;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+            text-align: center;
+            cursor: default;
+            background: #FFF;
+        }
+
+        .dark-mode .ui_selector .options ul .group,
+        .dark-mode .ui_selector .options ul .group:hover,
+        .dark-mode .ui_selector .options ul .group.whenHover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.TnITTtw-whenHover {
+            color: #98989D;
+            background: #525251;
+        }
+
+        .group-element,
+        .TnITTtw-group-element {
+            width: 153px;
+        }
+
+        .options .dd-search,
+        .TnITTtw-options .TnITTtw-dd-search {
+            border-bottom: 1px solid rgba(200, 199, 204, 0.5);
+        }
+
+        .dark-mode .options .dd-search,
+        .TnITTtw-dark-mode .TnITTtw-options .TnITTtw-dd-search {
+            border-bottom-color: #747473;
+        }
+
+        .dd-search .dd-input,
+        .TnITTtw-dd-search .TnITTtw-dd-input {
+            padding: 16px;
+            padding-left: calc(16px * 3);
+            width: 168px;
+            border: none;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            text-align: left;
+            color: #000;
+            font-size: 17px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/searchfield-icon.png);
+            background-position: 16px;
+            background-size: 16px;
+            background-repeat: no-repeat;
+            margin: 0;
+            height: auto;
+        }
+
+        .dark-mode .dd-search .dd-input,
+        .TnITTtw-dark-mode .TnITTtw-dd-search .TnITTtw-dd-input {
+            color: #FFF;
+            background-color: #525251;
+        }
+
+        .dd-search .dd-input:focus,
+        .TnITTtw-dd-search .TnITTtw-dd-input:focus {
+            -webkit-transition: all 275ms cubic-bezier(0.23, 1, 0.32, 1);
+            outline: none;
+            text-align: left;
+        }
+
+        .dd-input::-webkit-input-placeholder,
+        .TnITTtw-dd-input::-webkit-input-placeholder {
+            color: #8e8e93;
+        }
+
+        .search-failed-plaque,
+        .TnITTtw-search-failed-plaque {
+            text-align: center;
+            padding: 20px;
+            color: #8e8e93;
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        .dark-mode .search-failed-plaque,
+        .TnITTtw-dark-mode .TnITTtw-search-failed-plaque {
+            color: #98989D;
+        }
+
+        .rm-recent,
+        .TnITTtw-rm-recent {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-lang-remove.png);
+            background-size: 10px 10px;
+            top: 15px;
+            right: 10px;
+        }
+
+        .rm-recent:hover,
+        .TnITTtw-rm-recent:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-lang-remove.png);
+        }
+
+        .rm-recent:active,
+        .TnITTtw-rm-recent:active {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-lang-remove.png);
+        }
+
+        .option_selected .rm-recent,
+        .TnITTtw-option_selected .TnITTtw-rm-recent {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+        }
+
+        .option_selected .rm-recent:hover,
+        .TnITTtw-option_selected .TnITTtw-rm-recent:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-active-lang-remove.png);
+        }
+
+        .option_selected .rm-recent:active,
+        .TnITTtw-option_selected .TnITTtw-rm-recent:active {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+        }
+
+        .TnITTtw-hidden {
+            display: none;
+        }
+    </style>
+    <style type="text/css">
+        @-webkit-keyframes load4 {
+
+            0%,
+            100% {
+                box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+            }
+
+            12.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            25% {
+                box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            37.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            50% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            62.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+            }
+
+            75% {
+                box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+            }
+
+            87.5% {
+                box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+            }
+        }
+
+        @keyframes load4 {
+
+            0%,
+            100% {
+                box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+            }
+
+            12.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            25% {
+                box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            37.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            50% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            62.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+            }
+
+            75% {
+                box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+            }
+
+            87.5% {
+                box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+            }
+        }
+    </style>
+    <style type="text/css">
+        /* This is not a zero-length file! */
+    </style>
+    <style type="text/css">
+        /*
+     * contextMenu.js v 1.4.0
+     * Author: Sudhanshu Yadav
+     * s-yadav.github.com
+     * Copyright (c) 2013 Sudhanshu Yadav.
+     * Dual licensed under the MIT and GPL licenses
+    **/
+
+        .iw-contextMenu {
+            box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.10) !important;
+            border: 1px solid #c8c7cc !important;
+            border-radius: 11px !important;
+            display: none;
+            z-index: 1000000132;
+            max-width: 300px !important;
+            width: auto !important;
+        }
+
+        .dark-mode .iw-contextMenu,
+        .TnITTtw-dark-mode.iw-contextMenu,
+        .TnITTtw-dark-mode .iw-contextMenu {
+            border-color: #747473 !important;
+        }
+
+        .iw-cm-menu {
+            background: #fff !important;
+            color: #000 !important;
+            margin: 0px !important;
+            padding: 0px !important;
+            overflow: visible !important;
+        }
+
+        .dark-mode .iw-cm-menu,
+        .TnITTtw-dark-mode.iw-cm-menu,
+        .TnITTtw-dark-mode .iw-cm-menu {
+            background: #525251 !important;
+            color: #FFF !important;
+        }
+
+        .iw-curMenu {}
+
+        .iw-cm-menu li {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            list-style: none !important;
+            padding: 10px !important;
+            padding-right: 20px !important;
+            border-bottom: 1px solid #c8c7cc !important;
+            font-weight: 400 !important;
+            cursor: pointer !important;
+            position: relative !important;
+            font-size: 14px !important;
+            margin: 0 !important;
+            line-height: inherit !important;
+            border-radius: 0 !important;
+            display: block !important;
+        }
+
+        .dark-mode .iw-cm-menu li,
+        .TnITTtw-dark-mode .iw-cm-menu li {
+            border-bottom-color: #747473 !important;
+        }
+
+        .iw-cm-menu li:first-child {
+            border-top-left-radius: 11px !important;
+            border-top-right-radius: 11px !important;
+        }
+
+        .iw-cm-menu li:last-child {
+            border-bottom-left-radius: 11px !important;
+            border-bottom-right-radius: 11px !important;
+            border-bottom: none !important;
+        }
+
+        .iw-mOverlay {
+            position: absolute !important;
+            width: 100% !important;
+            height: 100% !important;
+            top: 0px !important;
+            left: 0px !important;
+            background: #FFF !important;
+            opacity: .5 !important;
+        }
+
+        .iw-contextMenu li.iw-mDisable {
+            opacity: 0.3 !important;
+            cursor: default !important;
+        }
+
+        .iw-mSelected {
+            background-color: #F6F6F6 !important;
+        }
+
+        .dark-mode .iw-mSelected,
+        .TnITTtw-dark-mode .iw-mSelected {
+            background-color: #676766 !important;
+        }
+
+        .iw-cm-arrow-right {
+            width: 0 !important;
+            height: 0 !important;
+            border-top: 5px solid transparent !important;
+            border-bottom: 5px solid transparent !important;
+            border-left: 5px solid #000 !important;
+            position: absolute !important;
+            right: 5px !important;
+            top: 50% !important;
+            margin-top: -5px !important;
+        }
+
+        .dark-mode .iw-cm-arrow-right,
+        .TnITTtw-dark-mode .iw-cm-arrow-right {
+            border-left-color: #FFF !important;
+        }
+
+        .iw-mSelected>.iw-cm-arrow-right {}
+
+        /*context menu css end */
+    </style>
+    <style type="text/css">
+        .TnITTtw-fp-collapsed-button {
+            display: none;
+            position: fixed !important;
+            top: 16px !important;
+            right: 16px !important;
+        }
+
+        .TnITTtw-fp-collapsed-button:hover {
+            opacity: 1.0 !important;
+        }
+
+        .TnITTtw-mate-fp-bar {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            color: #000;
+            position: fixed;
+            top: 16px;
+            right: 16px;
+            z-index: 999;
+            background: rgb(255 255 255 / 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            padding: 16px;
+            border-radius: 11px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            width: 320px;
+            line-height: initial;
+        }
+
+        @-moz-document url-prefix() {
+            .TnITTtw-mate-fp-bar {
+                background: rgb(255 255 255 / 1.0);
+            }
+        }
+
+        .TnITTtw-mate-fp-bar.TnITTtw-dark-mode {
+            background: rgb(44, 44, 43);
+        }
+
+        .TnITTtw-hide-fp-bar {
+            width: 12px;
+            height: 12px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+            background-size: 12px 12px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
+        }
+
+        .TnITTtw-hide-fp-bar:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+        }
+
+        .TnITTtw-current-page-lang {
+            color: #6d6d72;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-current-page-lang {
+            color: #98989D;
+        }
+
+        .TnITTtw-fp-translate {
+            width: calc(100% - 73px) !important;
+            font-size: 14px !important;
+            text-transform: none !important;
+        }
+
+        .TnITTtw-fp-translate.TnITTtw-in-progress {
+            animation-name: funky-bg;
+            animation-duration: 10s;
+            animation-timing-function: ease-in;
+        }
+
+        .TnITTtw-fp-translate.TnITTtw-show-original {
+            width: calc(100% - 20px) !important;
+        }
+
+        @keyframes funky-bg {
+            from {
+                background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+                    linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            }
+
+            to {
+                background-image: linear-gradient(90deg, #01EF92, #00D8FB),
+                    linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            }
+        }
+
+        .TnITTtw-change-language,
+        .TnITTtw-stop-fp {
+            width: 38px;
+            height: 38px;
+            background-color: #EFEFF4;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 16px 16px;
+            border-radius: 11px;
+            display: inline-block;
+            vertical-align: top;
+            cursor: pointer;
+        }
+
+        .TnITTtw-change-language {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth.png) !important;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/globe-earth-dark.png) !important;
+        }
+
+        .TnITTtw-stop-fp {
+            display: none;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-stt-stop.png) !important;
+            background-size: 12px 12px;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp {
+            background-color: #525251 !important;
+        }
+
+        .TnITTtw-change-language:hover,
+        .TnITTtw-stop-fp:hover {
+            background-color: #F6F6F6;
+        }
+
+        .TnITTtw-change-language:active,
+        .TnITTtw-stop-fp:active {
+            background-color: #E9E9E9;
+        }
+
+        .TnITTtw-dark-mode .TnITTtw-change-language:hover,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp:hover,
+        .TnITTtw-dark-mode .TnITTtw-change-language:active,
+        .TnITTtw-dark-mode .TnITTtw-stop-fp:active {
+            background-color: #767675;
+        }
+
+        #TnITTtw-always-translate {}
+
+        .TnITTtw-fp-options input {
+            padding: initial;
+            width: auto;
+            border: initial;
+            box-shadow: initial;
+            line-height: initial;
+            height: auto;
+            display: initial;
+            position: initial;
+            appearance: auto;
+            top: initial;
+            cursor: pointer;
+            margin: 0;
+        }
+
+        .TnITTtw-fp-options input[readonly="readonly"] {
+            opacity: 0.5;
+        }
+
+        #TnITTtw-always-translate+label,
+        #TnITTtw-never-translate-lang+label,
+        #TnITTtw-never-translate-site+label {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif !important;
+            display: inline-block;
+            font-weight: 400;
+            font-size: 14px;
+            margin-left: 4px;
+            color: #000;
+            cursor: pointer;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 296px;
+            vertical-align: top;
+            line-height: initial;
+            letter-spacing: initial;
+            text-transform: initial;
+            margin-right: 0;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+        }
+
+        #TnITTtw-always-translate+label::before,
+        #TnITTtw-never-translate-lang+label::before,
+        #TnITTtw-never-translate-site+label::before,
+        #TnITTtw-always-translate+label::after,
+        #TnITTtw-never-translate-lang+label::after,
+        #TnITTtw-never-translate-site+label::after {
+            content: initial;
+        }
+
+        .TnITTtw-always-translate-inner-label {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            max-width: 252px;
+            vertical-align: top;
+            display: inline-block;
+        }
+
+        .TnITTtw-dark-mode #TnITTtw-always-translate+label,
+        .TnITTtw-dark-mode #TnITTtw-never-translate-lang+label,
+        .TnITTtw-dark-mode #TnITTtw-never-translate-site+label {
+            color: #FFF;
+        }
+
+        #TnITTtw-always-translate+label.TnITTtw-not-pro {
+            opacity: 0.5;
+        }
+
+        #TnITTtw-always-translate+label .TnITTtw-pro-label {
+            position: relative;
+            background: #000;
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #FFF;
+            padding: 2px 5px;
+            border-radius: 4px;
+            margin-left: 10px;
+            top: -1px;
+            user-select: none;
+            -webkit-user-select: none;
+            display: inline;
+            font-weight: 500;
+        }
+
+        .TnITTtw-dark-mode #TnITTtw-always-translate+label .TnITTtw-pro-label {
+            background: #FFF;
+            color: #000;
+        }
+
+        .TnITTtw-inline-original-tooltip {
+            display: none;
+            position: absolute;
+            margin: 0px;
+            border: none;
+            padding: 16px;
+            color: rgb(0, 0, 0);
+            background-color: rgb(255 255 255 / 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 11px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            font-style: normal;
+            font-variant: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: normal;
+        }
+
+        .TnITTtw-dark-mode.TnITTtw-inline-original-tooltip {
+            background-color: rgb(0 0 0 / 0.915);
+            color: #FFF;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip {
+            width: 12px;
+            height: 12px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-close-tt.png) !important;
+            background-size: 12px 12px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: absolute;
+            right: 8px;
+            top: 8px;
+            cursor: pointer;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-close-original-tooltip:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-close-tt.png) !important;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-original-label {
+            margin: 0;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #6d6d72;
+            margin-bottom: 10px;
+        }
+
+        .TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-original-label {
+            color: #98989D;
+        }
+
+        .TnITTtw-inline-original-tooltip .TnITTtw-text-layout {
+            display: inline-block;
+            margin: 0;
+            font-size: 16px;
+            color: #000;
+        }
+
+        .TnITTtw-inline-original-tooltip.TnITTtw-dark-mode .TnITTtw-text-layout {
+            color: #FFF;
+        }
+
+        .TnITTtw-highlighted-for-original {
+            color: #0F0F5F;
+            background-color: #F0F0A0;
+        }
+
+        /* Dropdown scrollbars */
+
+        #selVisibleScroll-1,
+        #selVisibleScroll-2,
+        #selVisibleScroll-3 {
+            overflow: hidden;
+            height: 259px;
+            width: 100%;
+            position: relative;
+        }
+
+        #sel-scrollbar-1,
+        #sel-scrollbar-2,
+        #sel-scrollbar-3 {
+            position: absolute;
+            width: 4px;
+            height: 259px;
+            left: 225px;
+        }
+
+        #sel-track-1,
+        #sel-track-2,
+        #sel-track-3 {
+            position: absolute;
+            top: 1px;
+            width: 4px;
+            height: calc(100% - 6px);
+        }
+
+        #sel-dragBar-1,
+        #sel-dragBar-2,
+        #sel-dragBar-3 {
+            position: absolute;
+            top: 1px;
+            width: 4px;
+            background: rgba(43, 43, 43, 0.5);
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .dark-mode #sel-dragBar-1,
+        .dark-mode #sel-dragBar-2,
+        .dark-mode #sel-dragBar-3 {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        #sel-dragBar-1:hover,
+        #sel-dragBar-2:hover,
+        #sel-dragBar-3:hover,
+        #sel-dragBar-1:active,
+        #sel-dragBar-2:active,
+        #sel-dragBar-3:active {
+            background: rgba(43, 43, 43, 0.675);
+        }
+
+        .dark-mode #sel-dragBar-1:hover,
+        .dark-mode #sel-dragBar-2:hover,
+        .dark-mode #sel-dragBar-3:hover,
+        .dark-mode #sel-dragBar-1:active,
+        .dark-mode #sel-dragBar-2:active,
+        .dark-mode #sel-dragBar-3:active {
+            background: rgba(255, 255, 255, 0.675);
+        }
+
+        #sel-scrollbar-1,
+        #sel-track-1,
+        #sel-dragBar-1,
+        #sel-scrollbar-2,
+        #sel-track-2,
+        #sel-dragBar-2,
+        #sel-scrollbar-3,
+        #sel-track-3,
+        #sel-dragBar-3 {
+            -webkit-user-select: none;
+            user-select: none;
+        }
+
+        /* Spinner for when it's translating a page */
+
+        .TnITTtw-cta-button-layout {
+            position: relative;
+            display: inline;
+        }
+
+        .TnITTtw-spinner {
+            display: none;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        @media screen and (max-width: 800px) {
+            .TnITTtw-spinner {
+                top: 28px;
+            }
+        }
+
+        .TnITTtw-spinner.in-text {
+            display: block;
+            background: transparent;
+            position: initial;
+        }
+
+        .TnITTtw-spinner.left {
+            text-align: left;
+        }
+
+        .TnITTtw-spinner>div {
+            width: 12px;
+            height: 12px;
+            background-color: rgb(0, 71, 46);
+
+            border-radius: 100%;
+            display: inline-block;
+            -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+            animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+        }
+
+        .TnITTtw-spinner.in-text>div {
+            background-color: #000;
+        }
+
+        .TnITTtw-spinner .TnITTtw-bounce1 {
+            -webkit-animation-delay: -0.32s;
+            animation-delay: -0.32s;
+        }
+
+        .TnITTtw-spinner .TnITTtw-bounce2 {
+            -webkit-animation-delay: -0.16s;
+            animation-delay: -0.16s;
+        }
+
+        @-webkit-keyframes sk-bouncedelay {
+
+            0%,
+            80%,
+            100% {
+                -webkit-transform: scale(0)
+            }
+
+            40% {
+                -webkit-transform: scale(1.0)
+            }
+        }
+
+        @keyframes sk-bouncedelay {
+
+            0%,
+            80%,
+            100% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+
+            40% {
+                -webkit-transform: scale(1.0);
+                transform: scale(1.0);
+            }
+        }
+    </style>
+    <style type="text/css">
+        .ui_selector,
+        .TnITTtw-ui_selector {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            display: inline-block;
+        }
+
+        .ui_selector .select,
+        .TnITTtw-ui_selector .TnITTtw-select {
+            color: #000;
+            text-align: center;
+            font-weight: 600;
+            font-size: 14px;
+            border: 1px solid rgba(200, 199, 204, 0.5);
+            padding: 10px 15px;
+            width: 201px;
+            -webkit-user-select: none;
+            cursor: pointer;
+            border-radius: 11px;
+            display: inline-block;
+            background-image: -webkit-linear-gradient(top, #FAFAFA, #F6F6F6);
+            background-image: -moz-linear-gradient(top, #FAFAFA, #F6F6F6);
+            background-size: auto 48px;
+            background-position: 0px -11px;
+            box-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.10);
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+        .dark-mode .ui_selector .select,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select {
+            background-image: -webkit-linear-gradient(top, #4A4A49, #40403F);
+            background-image: -moz-linear-gradient(top, #4A4A49, #40403F);
+            color: #FFF;
+            border-color: #747473;
+        }
+
+        .ui_selector .select:hover,
+        .TnITTtw-ui_selector .TnITTtw-select:hover {
+            color: #424242;
+            background-image: -webkit-linear-gradient(top, #FAFAFA, #FAFAFA);
+            background-image: -moz-linear-gradient(top, #FAFAFA, #FAFAFA);
+        }
+
+        .ui_selector .select:active,
+        .TnITTtw-ui_selector .TnITTtw-select:active {
+            color: #6d6d72;
+            background-image: -webkit-linear-gradient(top, #F6F6F6, #F6F6F6);
+            background-image: -moz-linear-gradient(top, #F6F6F6, #F6F6F6);
+        }
+
+        .dark-mode .ui_selector .select:hover,
+        .dark-mode .ui_selector .select:active,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:hover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-select:active {
+            background-image: -webkit-linear-gradient(top, #4A4A49, #4A4A49);
+            background-image: -moz-linear-gradient(top, #4A4A49, #4A4A49);
+            color: #FFF;
+            border-color: #747473;
+        }
+
+        .ui_selector .select .detected-ico,
+        .TnITTtw-ui_selector .TnITTtw-select .TnITTtw-detected-ico {
+            display: inline-block;
+        }
+
+        .ui_selector .active,
+        .ui_selector .active:hover,
+        .ui_selector .active:active,
+        .TnITTtw-ui_selector .TnITTtw-active,
+        .TnITTtw-ui_selector .TnITTtw-active:hover,
+        .TnITTtw-ui_selector .TnITTtw-active:active {
+            box-shadow: 0 -1px 15px -10px rgba(0, 0, 0, 0.85) !important;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            background: #F3F3F3;
+        }
+
+        .sliding-text,
+        .TnITTtw-sliding-text {
+            position: relative;
+        }
+
+        .ui_selector .options,
+        .TnITTtw-ui_selector .TnITTtw-options {
+            margin-left: 0px;
+            margin-top: -4px;
+            background: #fff;
+            border: 1px solid rgba(200, 199, 204, 0.5);
+            width: 231px;
+            overflow: hidden;
+            max-height: 313px;
+            position: absolute;
+            font-size: 12px;
+            box-shadow: 0 2px 10px rgb(0 0 0 / 25%);
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            display: none;
+        }
+
+        .ui_selector .options.standalone,
+        .TnITTtw-ui_selector .TnITTtw-options.TnITTtw-standalone {
+            border-radius: 11px;
+            margin-top: 16px;
+        }
+
+        /* for now, it can only be on the top */
+        .ui_selector .options-arrow,
+        .TnITTtw-ui_selector .TnITTtw-options-arrow {
+            display: none;
+            position: absolute;
+            width: 32px !important;
+            height: 18px !important;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow.png);
+            background-size: 32px 18px;
+            transform: rotate(180deg);
+            margin-top: -1px;
+        }
+
+        .dark-mode .ui_selector .options-arrow,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options-arrow {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/tt-dropdown-arrow-dark.png);
+        }
+
+        .dark-mode .ui_selector .options,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options {
+            background: #525251;
+        }
+
+        .ui_selector .options ul,
+        .TnITTtw-ui_selector .TnITTtw-options ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            width: 232px;
+        }
+
+        .ui_selector .options ul li,
+        .TnITTtw-ui_selector .TnITTtw-options ul li {
+            padding: 10px 0px;
+            -webkit-user-select: none;
+            text-align: center;
+            font-size: 17px;
+            -webkit-transition: all 600ms cubic-bezier(0.23, 1, 0.32, 1);
+            margin: 0 10px;
+            border-radius: 6px;
+            position: relative;
+        }
+
+        .dark-mode .options ul li,
+        .TnITTtw-dark-mode .TnITTtw-options ul li {
+            color: #fff;
+        }
+
+        .ui_selector .options ul li:last-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li:last-child {
+            margin-bottom: 16px;
+        }
+
+        .ui_selector .options ul li.option:first-child,
+        .ui_selector .options ul li.option_selected:first-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option:first-child,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected:first-child {
+            margin-top: 16px;
+        }
+
+        .ui_selector .options ul li.whenHover,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+            cursor: pointer;
+            background: #f3f3f3;
+            text-align: center;
+        }
+
+        .dark-mode .ui_selector .options ul li.whenHover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-whenHover {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .ui_selector .options ul li.option_selected,
+        .TnITTtw-ui_selector .TnITTtw-options ul li.TnITTtw-option_selected {
+            cursor: pointer;
+            background-image: linear-gradient(145deg, #01EF92, #00D8FB),
+                linear-gradient(35deg, rgba(1, 239, 146, 0.25), rgba(0, 216, 251, 0.25)) !important;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .ui_selector .options ul .group,
+        .ui_selector .options ul .group:hover,
+        .ui_selector .options ul .group.whenHover,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+        .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.whenHover {
+            padding: 16px 10px;
+            color: #8e8e93;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 12px;
+            text-align: center;
+            cursor: default;
+            background: #FFF;
+        }
+
+        .dark-mode .ui_selector .options ul .group,
+        .dark-mode .ui_selector .options ul .group:hover,
+        .dark-mode .ui_selector .options ul .group.whenHover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group:hover,
+        .TnITTtw-dark-mode .TnITTtw-ui_selector .TnITTtw-options ul .TnITTtw-group.TnITTtw-whenHover {
+            color: #98989D;
+            background: #525251;
+        }
+
+        .group-element,
+        .TnITTtw-group-element {
+            width: 153px;
+        }
+
+        .options .dd-search,
+        .TnITTtw-options .TnITTtw-dd-search {
+            border-bottom: 1px solid rgba(200, 199, 204, 0.5);
+        }
+
+        .dark-mode .options .dd-search,
+        .TnITTtw-dark-mode .TnITTtw-options .TnITTtw-dd-search {
+            border-bottom-color: #747473;
+        }
+
+        .dd-search .dd-input,
+        .TnITTtw-dd-search .TnITTtw-dd-input {
+            padding: 16px;
+            padding-left: calc(16px * 3);
+            width: 168px;
+            border: none;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, Ubuntu, sans-serif;
+            text-align: left;
+            color: #000;
+            font-size: 17px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/searchfield-icon.png);
+            background-position: 16px;
+            background-size: 16px;
+            background-repeat: no-repeat;
+            margin: 0;
+            height: auto;
+        }
+
+        .dark-mode .dd-search .dd-input,
+        .TnITTtw-dark-mode .TnITTtw-dd-search .TnITTtw-dd-input {
+            color: #FFF;
+            background-color: #525251;
+        }
+
+        .dd-search .dd-input:focus,
+        .TnITTtw-dd-search .TnITTtw-dd-input:focus {
+            -webkit-transition: all 275ms cubic-bezier(0.23, 1, 0.32, 1);
+            outline: none;
+            text-align: left;
+        }
+
+        .dd-input::-webkit-input-placeholder,
+        .TnITTtw-dd-input::-webkit-input-placeholder {
+            color: #8e8e93;
+        }
+
+        .search-failed-plaque,
+        .TnITTtw-search-failed-plaque {
+            text-align: center;
+            padding: 20px;
+            color: #8e8e93;
+            font-size: 17px;
+            font-weight: 600;
+        }
+
+        .dark-mode .search-failed-plaque,
+        .TnITTtw-dark-mode .TnITTtw-search-failed-plaque {
+            color: #98989D;
+        }
+
+        .rm-recent,
+        .TnITTtw-rm-recent {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/regular-lang-remove.png);
+            background-size: 10px 10px;
+            top: 15px;
+            right: 10px;
+        }
+
+        .rm-recent:hover,
+        .TnITTtw-rm-recent:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-lang-remove.png);
+        }
+
+        .rm-recent:active,
+        .TnITTtw-rm-recent:active {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-lang-remove.png);
+        }
+
+        .option_selected .rm-recent,
+        .TnITTtw-option_selected .TnITTtw-rm-recent {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+        }
+
+        .option_selected .rm-recent:hover,
+        .TnITTtw-option_selected .TnITTtw-rm-recent:hover {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/hover-active-lang-remove.png);
+        }
+
+        .option_selected .rm-recent:active,
+        .TnITTtw-option_selected .TnITTtw-rm-recent:active {
+            background-image: url(chrome-extension://ihmgiclibbndffejedjimfjmfoabpcke/res/images/ui/down-active-lang-remove.png);
+        }
+
+        .TnITTtw-hidden {
+            display: none;
+        }
+    </style>
+    <style type="text/css">
+        @-webkit-keyframes load4 {
+
+            0%,
+            100% {
+                box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+            }
+
+            12.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            25% {
+                box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            37.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            50% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            62.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+            }
+
+            75% {
+                box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+            }
+
+            87.5% {
+                box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+            }
+        }
+
+        @keyframes load4 {
+
+            0%,
+            100% {
+                box-shadow: 0 -3em 0 0.2em, 2em -2em 0 0em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 0;
+            }
+
+            12.5% {
+                box-shadow: 0 -3em 0 0, 2em -2em 0 0.2em, 3em 0 0 0, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            25% {
+                box-shadow: 0 -3em 0 -0.5em, 2em -2em 0 0, 3em 0 0 0.2em, 2em 2em 0 0, 0 3em 0 -1em, -2em 2em 0 -1em, -3em 0 0 -1em, -2em -2em 0 -1em;
+            }
+
+            37.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 0, 2em 2em 0 0.2em, 0 3em 0 0em, -2em 2em 0 -1em, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            50% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 0em, 0 3em 0 0.2em, -2em 2em 0 0, -3em 0em 0 -1em, -2em -2em 0 -1em;
+            }
+
+            62.5% {
+                box-shadow: 0 -3em 0 -1em, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 0, -2em 2em 0 0.2em, -3em 0 0 0, -2em -2em 0 -1em;
+            }
+
+            75% {
+                box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;
+            }
+
+            87.5% {
+                box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;
+            }
+        }
+    </style>
+    <style type="text/css">
+        /* This is not a zero-length file! */
+    </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1062.0" data-gr-ext-installed="">
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <img class="close" src="img/close.svg">
+            <div class="modal-is-it-safe">
+                <p class="modal-heading">Is it safe?</p>
+                <p class="modal-item">1. You send crypto to one of many wallet addresses that belong to WOO Platform.</p>
+                <p class="modal-item">2. Your crypto is locked until you approve that you receive money. If something goes wrong during an exchange process, you can appeal for the return of money and we will take care of it.</p>
+                <p class="modal-item">3. People who buy crypto on our platform should have an equivalent amount of money on their buyer accounts. For example, if a buyer wants to buy 1 BTC, they must have 1 BTC or an equivalent amount of other cryptocurrencies in their wallets to create an order. When the buyer creates one, we lock their crypto until the moment when you approve that money is received.</p>    
+            </div>
+            <div class="appeal-part hidden">
+                <p class="modal-heading">Appeal</p>
+                <p class="modal-item">Enter your email so we can contact you as soon as we come up with a solution.</p>
+                <div class="input-block">
+                    <input id="modal-email" type="email" placeholder="Email">
+                </div>
+                <div class="modal-buttons">
+                    <div class="common-button" onclick="appeal()">Appeal</div>
+                    <div class="common-button" onclick="cancelAppeal()">Cancel</div>
+                </div>
+            </div>
+            <div class="modal-cancel-order hidden">
+                <p class="modal-heading">Cancel order</p>
+                <p class="modal-item" style="text-align: center;">If you cancel too many orders without completing or appealing, we will restrict your access to our P2P platform!</p>
+                <div class="modal-buttons">
+                    <div class="common-button" onclick="cancelAnyway()" style="background-color: #E03C3C;color: black;font-weight: 600;">Cancel anyway</div>
+                    <div class="common-button" onclick="cancelCancelOrder()">Close</div>
+                </div>
+            </div>
+            <div class="modal-receive-money hidden">
+                <p class="modal-heading">Received money</p>
+                <p class="modal-item" style="text-align: center;">I received the full amount of money!</p>
+                <div class="modal-buttons">
+                    <div class="common-button" onclick="confirmRecieveMoney()" style="background-color: #E03C3C;color: black;font-weight: 600;">Confirm</div>
+                    <div class="common-button" onclick="cancelRecieveMoney()">Cancel</div>
+                </div>
+            </div>
+        </div>  
+      
+      </div>
+    <div id="__next" data-reactroot="">
+        <div class="home-top-wrap">
+            <div class="logo" href="index.htm">
+                <span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%">
+                    <span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%">
+                        <img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2788%27%20height=%2724%27/%3e">
+                    </span>
+                    <img alt="Logo" src="img/woo-logo-small.webp" decoding="async" data-nimg="intrinsic" style="position: absolute; inset: 0px; box-sizing: border-box; padding: 0px; border: none; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;">
+                    <noscript>
+                        <img alt="Logo" src="img/woo-logo-small.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy">
+                    </noscript>
+                </span>
+            </div>
+        </div>
+        <div class="home-wrap">
+            <div class="banner-bg">
+                <div class="banner-bg-image">
+                    <div class="banner-wrapper">
+                        <div class="banner-border-line">
+                            <h1 class="banner-title">The Ultimate<br>Trading Platform</h1>
+                            <h2 class="banner-subtitle">Featuring deep liquidity for superior order execution, zero-fee
+                                trading, and fully customizable trading workspaces.</h2>
+                        </div>
+
+                        <div class="banner-24hr">
+                            <div class="banner-24hr-box">
+                                <div class="banner-24hr-item">
+                                    <div class="left">$
+                                        <!-- -->813,483,125
+                                    </div>
+                                    <div class="right">Average 24-hr Volume</div>
+                                </div>
+                                <div class="divide-line"></div>
+                                <div class="banner-24hr-item">
+                                    <div class="left">573,863</div>
+                                    <div class="right">Average 24-hr Transactions</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-bg-video">
+                        <div>
+                            <div class="banner-video-mask">
+                                <div class="banner-video"><video preload="auto" poster="videos/HOME_Banner_20211021_poster.webp" autoplay="" loop="" playsinline="" muted="" defaultmuted="">
+                                        <source src="videos/HOME_Banner_20211021.webm" type="video/webm">
+                                        <source src="videos/HOME_Banner_20211021.mp4" type="video/mp4">
+                                    </video></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="calc">
+                <div class="background-cover hidden">
+                    <div class="loading-block">
+                        <div class="loader"></div>
+                        <p class="loader-text">Looking for the best proposition</p>
+                    </div>
+                </div>
+                <div class="calc-wrapper increased-height-calc-wrapper">
+                    <p class="calc-title">Get more with better execution and zero-fee exchange on WOO
+                        <i class="green-hr"></i></p>
+                    <div id="first-step" class="calc-content">
+                        <div class="calculation"><i class="arrow"><svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.5858 9L10.293 4.70718L11.7072 3.29297L18.4143 10.0001L11.7072 16.7072L10.293 15.293L14.5859 11H1V9H14.5858Z">
+                                    </path>
+                                </svg></i>
+                            <div id="crypto-dropdown-block" class="block get-in">
+                                <p>What you exchange</p>
+                                <div>
+                                    <div class="ant-select ant-select-borderless ant-select-single ant-select-show-arrow">
+                                        <div class="dropdown">
+                                            <button id="crypto-button" onclick="openCryptoDropdown()" class="dropbtn">Crypto</button>
+                                            <div id="crypto-dropdown" class="dropdown-content">
+                                                <p onclick="setSelectedCrypto(this)">Bitcoin (BTC)</p>
+                                                <p onclick="setSelectedCrypto(this)">Ethereum (ETH)</p>
+                                                <p onclick="setSelectedCrypto(this)">Stellar (XLM)</p>
+                                                <p onclick="setSelectedCrypto(this)">Solana (SOL)</p>
+                                                <p onclick="setSelectedCrypto(this)">Dogecoin (DOGE)</p>
+                                                <p onclick="setSelectedCrypto(this)">Waves (WAVES)</p>
+                                                <p onclick="setSelectedCrypto(this)">Litecoin (LTC)</p>
+                                                <p onclick="setSelectedCrypto(this)">Cosmos (ATOM)</p>
+                                                <p onclick="setSelectedCrypto(this)">WOO Network (WOO)</p>
+                                            </div>
+                                        </div>
+                                        <span class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on" aria-hidden="true">
+                                            <span role="img" aria-label="caret-down" class="anticon anticon-caret-down">
+                                                <svg viewbox="0 0 1024 1024" focusable="false" data-icon="caret-down" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                                                    <path d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="fiat-dropdown-block" class="block for-usdt">
+                                <p>for</p>
+                                <div class="ant-select ant-select-borderless ant-select-single ant-select-show-arrow">
+                                    <div class="dropdown">
+                                        <button id="fiat-button" onclick="openBankDropdown()" class="dropbtn">Fiat</button>
+                                        <div id="bank-dropdown" class="dropdown-content">
+                                            <p onclick="setSelectedBank(this)">(EUR) Raiffeisenbank</p>
+                                            <p onclick="setSelectedBank(this)">(EUR) Bank Austria</p>
+                                            <p onclick="setSelectedBank(this)">(EUR) Post Bank</p>
+                                            <p onclick="setSelectedBank(this)">(EUR) Deutsche Bank</p>
+                                            <p onclick="setSelectedBank(this)">(EUR) UniCredit</p>
+                                            <p onclick="setSelectedBank(this)">(EUR) BBVA</p> 
+                                            <p onclick="setSelectedBank(this)">(EUR) Crédit Agricole</p>
+                                            <p onclick="setSelectedBank(this)">(EUR) BNP Paribas</p>
+                                            <p onclick="setSelectedBank(this)">(EUR) Santander</p>
+                                            <p onclick="setSelectedBank(this)">(USD) Capital One</p>
+                                            <p onclick="setSelectedBank(this)">(USD) JPMorgan</p>
+                                            <p onclick="setSelectedBank(this)">(USD) Citigroup</p>
+                                            <p onclick="setSelectedBank(this)">(JPY) Seven Bank</p>
+                                            <p onclick="setSelectedBank(this)">(CZK) Citibank</p>
+                                            <p onclick="setSelectedBank(this)">(CZK) UniCredit</p>
+                                            <p onclick="setSelectedBank(this)">(CZK) Expobank </p>
+                                            <p onclick="setSelectedBank(this)">(UAH) PrivatBank</p>
+					    <p onclick="setSelectedBank(this)">(UAH) MonoBank</p>
+                                            <p onclick="setSelectedBank(this)">(GBP) Barclays</p>
+                                            <p onclick="setSelectedBank(this)">(GBP) NatWest</p>
+                                            <p onclick="setSelectedBank(this)">(GBP) HSBC</p>
+                                            <p onclick="setSelectedBank(this)">(PLN) mBank</p>
+                                            <p onclick="setSelectedBank(this)">(PLN) Santander</p>
+                                            <p onclick="setSelectedBank(this)">(RUB) Sberbank</p>
+                                        </div>
+                                    </div>
+                                    <span class="ant-select-arrow" style="user-select:none;-webkit-user-select:none" unselectable="on" aria-hidden="true">
+                                        <span role="img" aria-label="caret-down" class="anticon anticon-caret-down">
+                                            <svg viewbox="0 0 1024 1024" focusable="false" data-icon="caret-down" width="1em" height="1em" fill="currentColor" aria-hidden="true">
+                                                <path d="M840.4 300H183.6c-19.7 0-30.7 20.8-18.5 35l328.4 380.8c9.4 10.9 27.5 10.9 37 0L858.9 335c12.2-14.2 1.2-35-18.5-35z">
+                                                </path>
+                                            </svg>
+                                        </span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="result">
+                            <p class="result-header">Exchange rate</p>
+                            <div class="block-box">
+                                <div id="crypto-input-block" class="block">
+                                    <div id="crypto-title" class="title">Crypto</div>
+                                    <div class="text">
+                                        <input type="text" id="crypto-input" class="input" placeholder="--" disabled="" oninput="this.value = this.value.replace(/[^0-9.]/g, '') .replace(/(\..*)\./g, '$1'); limit(this); exchange(this); ">
+                                    </div>
+                                </div>
+                                <div id="fiat-input-block" class="block">
+                                    <div id="fiat-title" class="title">Fiat</div>
+                                    <div class="text">
+                                        <input type="text" id="fiat-input" class="input" placeholder="--" disabled="" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1'); limit(this); exchange(this);">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <p class="tipInfo">Minimum amount: <span id="min-amount" >--</span></p> -->
+                            <div class="button-bar">
+                                <div id="trade-button" class="common-button">EXCHANGE</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="second-step" class="hidden">
+                        <div class="sender-info-input">
+                            <div class="input-block">
+                                <p>Bank name</p>
+                                <input id="bank-name-input" disabled="" type="text" placeholder="Bank">
+                            </div>
+                            <div class="input-block">
+                                <p>Card number</p>
+                                <input id="card-number-input" type="text" placeholder="0000 0000 0000 0000" oninput="cc_format(this); checkDigit();">
+                            </div>
+                            <div class="input-block">
+                                <p>Card owner</p>
+                                <input id="card-owner-input" type="text" placeholder="Satoshi Nakamoto">
+                            </div>
+                            <div class="input-block">
+                                <p>Email <span class="optional">(optional)</span></p>
+                                <input id="email-input" type="email" placeholder="satoshi.nakamoto@woo.com">
+                            </div>
+                        </div>
+                        <div class="exchange-input">
+                            <div class="block-box-second">
+                                <div id="crypto-input-block-second" class="block-second">
+                                    <div id="crypto-title-final" class="title">Crypto</div>
+                                    <div class="text">
+                                        <input type="text" id="crypto-input-final" class="input" placeholder="Input quantity" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1'); limit(this); exchangeFinal(this);">
+                                    </div>
+                                </div>
+                                <div class="equal-sign">
+                                    <hr>
+                                    <hr>
+                                </div>
+                                <div id="fiat-input-block-second" class="block-second">
+                                    <div class="title"><span id="fiat-title-final">Fiat</span><span id="min-amount-second">(Min: --)</span></div>
+                                    <div class="text">
+                                        <input type="text" id="fiat-input-final" class="input" placeholder="Input quantity" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1'); limit(this); exchangeFinal(this);">
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="exchange-rate">-- -- = -- --</p>
+                            <div class="button-bar-second">
+                                <div id="continue-button" class="common-button">CONTINUE</div>
+                                <div id="back-button-second" class="common-button">BACK</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="third-step" class="hidden">
+                        <div class="summary-money">
+                            <i class="arrow">
+                                <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.5858 9L10.293 4.70718L11.7072 3.29297L18.4143 10.0001L11.7072 16.7072L10.293 15.293L14.5859 11H1V9H14.5858Z"></path>
+                                </svg>
+                            </i> 
+                            <div class="summary-heading">
+                                <p>Complete the exchange</p>
+                                <p>The exchange will be cancelled in <span class="order-timer">14:33</span></p>
+                            </div>
+                            <hr>
+                            <div class="summary-list">
+                                <div class="summary-item">
+                                    <p>You send</p>
+                                    <p><span id="summary-send-amount">1.23402</span> <span id="summary-send-crypto">BTC</span></p>
+                                </div>
+                                <div class="summary-item">
+                                    <p>Price</p>
+                                    <p><span id="summary-price">892342.23</span> <span class="summary-recieve-currency">UAH</span></p>
+                                </div>
+                                <div class="summary-item">
+                                    <p>You recieve</p>
+                                    <p><span id="summary-recieve-amount">1000000.2</span> <span class="summary-recieve-currency">UAH</span></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="summary-buttons summary-money-buttons">
+                                <div class="common-button" onclick="transferred(this, 0)">Transferred, notify buyer</div>
+                                <div class="common-button go-back-btn" onclick="cancelOrder()">Cancel order</div>
+                            </div>
+                        </div>
+                        <div class="summary-payment-info">
+                            <div class="sender-info">
+                                <p class="sender-info-heading">Your payment method</p>
+                                <div class="sender-bank-block sender-info-item">
+                                    <p>Bank name</p>
+                                    <p id="sender-bank-name">PrivatBank</p>
+                                </div>
+                                <div class="sender-card-block sender-info-item">
+                                    <p>Card number</p>
+                                    <p id="sender-card-number">0000 0000 0000 0000</p>
+                                </div>
+                                <div class="sender-name-block sender-info-item">
+                                    <p>Card owner</p>
+                                    <p id="sender-name"></p>
+                                </div>
+                                <div class="sender-email-block sender-info-item">
+                                    <p>Email</p>
+                                    <p id="sender-email"></p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="reciever-info">
+                                <div class="reciever-info-heading">
+                                    <p>Transfer <span id="reciever-info-crypto-ticker">BTC</span> to <span id="address-network">(BEP-20)</span></p>
+                                    <p id="is-it-safe">Is it safe?</p>
+                                </div>
+                                <div class="reciever-address">
+                                    <p id="crypto-address"></p>
+                                    <div class="tooltip">
+                                        <img src="img/bxs_copy.svg" onclick="copyToClipboard()">
+                                            <span class="tooltiptext" id="myTooltip">Copied</span>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="summary-buttons summary-payment-info-buttons">
+                                <div class="common-button" onclick="transferred(this, 1)">Transferred, notify buyer</div>
+                                <div class="common-button go-back-btn" onclick="cancelOrder()">Cancel order</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="trade-essentials">
+                <div class="essentials-wrapper">
+                    <p class="essentials-title">The complete trading essentials, unified in a single platform<i class="green-hr"></i></p>
+                    <div class="essentials-content">
+                        <div class="row">
+                            <div class="col">
+                                <div class="block">
+                                    <div class="icon-box"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="img/integrated-order.webp"></span><img alt="Integrated order" src="img/integrated-order.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;filter:blur(20px);background-size:cover;background-image:url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAP1BMVEVMaXFAwe9Awe9VYX1EgrJ7y56X+7OP66lOUHpUX31WYn5lnoFWf3Jyl5thlnzW//SW+rKX+7NJyu46u/A/V1z5ebu5AAAAFHRSTlMA0rr5Cl/OMBGY03LmPNgcv5VQH8fujpEAAAAJcEhZcwAACxMAAAsTAQCanBgAAAA3SURBVAiZY2AAAyYmBjZBBgYGFkZGBjYBdnZWIWGQMD+fCCtEATcPO4TBwMsBZXBysUAZzBwMACaKAQSHDf/1AAAAAElFTkSuQmCC&quot;);background-position:0% 0%"><noscript><img alt="Integrated order" src="img/integrated-order.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"></noscript></span></div>
+                                    <div class="content-box">
+                                        <p class="title">Integrated orders for spot and margin</p>
+                                        <p class="subtitle">Set take profit, stop loss, limit orders, and more advanced
+                                            order types for spot and margin in one unified order interface with up to 5x
+                                            leverage.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="block">
+                                    <div class="icon-box"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="img/deep-liquidity.webp"></span><img alt="Deep liquidity" src="img/deep-liquidity.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;filter:blur(20px);background-size:cover;background-image:url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAS1BMVEVMaXGf+q1WZX9GbI2r/rEgq8ub/8Ks/651sZlKco8/w8cdrM4vtslNy8NTZIBUYn+BsZNUVHepz407g6I9t8E4hqY2e6AzvMppgoXVSulKAAAAF3RSTlMAUPjpDf0aMAQN+LO0u0KVRFsn+vLNzEzTcE8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAA/SURBVAiZHcVJEoAgDADBAQImLO4a//9SS/vSgKIKUEL5gjXs2zKDpeuOTzTs9JyPZEjN7l4FGa31PgSdfvoCQY0CIO1lfzcAAAAASUVORK5CYII=&quot;);background-position:0% 0%"><noscript><img alt="Deep liquidity" src="img/deep-liquidity.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"></noscript></span></div>
+                                    <div class="content-box">
+                                        <p class="title">Deep liquidity and order book depth</p>
+                                        <p class="subtitle">WOO X offers best-in-class liquidity and order book depth
+                                            allowing large trades to be executed with the least slippage.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="block">
+                                    <div class="icon-box"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="img/customizable.webp"></span><img alt="Customizable" src="img/customizable.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;filter:blur(20px);background-size:cover;background-image:url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAATlBMVEVMaXGe/blZa4FKdpRVYH2e/LBSXHxcj5d23ria+7KW+7Merc0arNCw/8dsl5CW+rMZqc5YWncVpc9qko8ztcYYqc9daH1UYX0XqM9ddIQmEeeBAAAAF3RSTlMAMU4m5zduCA9AGN+DHLtHxcKj42VHx3ARuBIAAAAJcEhZcwAACxMAAAsTAQCanBgAAABASURBVAiZHcvHAYAgEADBBQ6OpJjB/hs1/OYzkLOigGk+1bI4UsSXMc4fx1YjabL7tTqIZr57DwBBROwHVN/+AE5CAgOYy3ssAAAAAElFTkSuQmCC&quot;);background-position:0% 0%"><noscript><img alt="Customizable" src="img/customizable.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"></noscript></span></div>
+                                    <div class="content-box">
+                                        <p class="title">Fully customizable workspaces</p>
+                                        <p class="subtitle">Customize trading canvases with drag-and-drop modules such
+                                            as multi-charts and trading data widgets.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="block">
+                                    <div class="icon-box"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="img/zero-fee.webp"></span><img alt="Zero fee" src="img/zero-fee.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;filter:blur(20px);background-size:cover;background-image:url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAOVBMVEVLdoVKX4N4sJgQqtVUXnyn/7l/w59VgZdTWntUZ4Kl/72L9bY+x8oMotI5u8ZVzL9X0cEBy/ITpM+cyOLJAAAAE3RSTlMBLW6HQypYCjgaF0GmatiCeiDJIXgm7gAAAAlwSFlzAAALEwAACxMBAJqcGAAAADtJREFUCJkdy0kCgCAQBLECGqbHDfX/j3XJPQAR/CyVHqDS9jogfd1nd5BmHuEktG4tBYxq63sLmW9+AC2XAVhAsZGLAAAAAElFTkSuQmCC&quot;);background-position:0% 0%"><noscript><img alt="Zero fee" src="img/zero-fee.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"></noscript></span></div>
+                                    <div class="content-box">
+                                        <p class="title">Zero-fee trading</p>
+                                        <p class="subtitle">Unlock zero maker and taker spot trading fees by staking
+                                            only 1,800 WOO tokens on WOO X.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="block">
+                                    <div class="icon-box"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="img/trade-futures.webp"></span><img alt="Trade futures" src="img/trade-futures.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;filter:blur(20px);background-size:cover;background-image:url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAOVBMVEVMaXEgrc0Qo9FUXnya+rEdq85RzctemZ8TpdCn/7aj/rMYqc9WY35/+L+J3ak3G2ZbcINDOXBWYn4OW06vAAAAEnRSTlMAQ0jfRFYQCDQaK/14KlMQrSUVhUNzAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAO0lEQVQImSWMSxbAIAjEoqKA/dh6/8P60FllkQwoZ/WqQAvIYNlw6Q2zBOqvPCnMUb4uDtyz/LtVjYcFJcEBM7JDxUsAAAAASUVORK5CYII=&quot;);background-position:0% 0%"><noscript><img alt="Trade futures" src="img/trade-futures.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"></noscript></span></div>
+                                    <div class="content-box">
+                                        <p class="title">Trade futures with leverage</p>
+                                        <p class="subtitle">Futures trading and leverage will be enabled across a
+                                            variety of major pairs.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="block">
+                                    <div class="icon-box"><span style="box-sizing:border-box;display:inline-block;overflow:hidden;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;position:relative;max-width:100%"><span style="box-sizing:border-box;display:block;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0;max-width:100%"><img style="display:block;max-width:100%;width:initial;height:initial;background:none;opacity:1;border:0;margin:0;padding:0" alt="" aria-hidden="true" src="img/social.webp"></span><img alt="Social" src="img/social.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%;filter:blur(20px);background-size:cover;background-image:url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAATlBMVEVMaXGd/7aM3KYcq86g/7MYqM8Vps8pts2R9bJWY35KTXRgfIgXp8///4QZqc5UXXwdq859vp57rZVTXXxvnpMPodCp/654r5c8xMlQzMLs9lxzAAAAGnRSTlMAQFO7LRLyJhNeGP2hCZi/QSzG7ax+TkuAleMnb6gAAAAJcEhZcwAACxMAAAsTAQCanBgAAAA+SURBVAiZPYs5AoAgDMACFFpBxfv4/0cVB7MkS+CnqxmNLYrXNLbYTrdPkNeyXClEmL3coVcQJ8fwbWb26gE3YwGkvzN2UwAAAABJRU5ErkJggg==&quot;);background-position:0% 0%"><noscript><img alt="Social" src="img/social.webp" decoding="async" data-nimg="intrinsic" style="position:absolute;top:0;left:0;bottom:0;right:0;box-sizing:border-box;padding:0;border:none;margin:auto;display:block;width:0;height:0;min-width:100%;max-width:100%;min-height:100%;max-height:100%" loading="lazy"></noscript></span></div>
+                                    <div class="content-box">
+                                        <p class="title">Social trading</p>
+                                        <p class="subtitle">Learn from profitable trading strategies and emulate
+                                            successful traders with a record of proven profitability. </p>
+                                        <p class="thirdtitle">(Coming soon)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-nav-bg">
+                <div class="bottom-nav-wrapper">
+                    <div class="bottom-logo"><svg width="36" height="24" viewbox="0 0 36 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.5708 8.47607L24.4591 15.3942L25.5194 11.8702H31.2594L27.9872 22.5534C27.7313 23.388 26.9635 23.963 26.0861 23.963H22.8322C22.0278 23.963 21.2966 23.4622 20.9859 22.7018L17.3846 13.8362L13.8565 22.6832C13.564 23.4622 12.8328 23.963 12.0102 23.963H8.71974C7.84228 23.963 7.0745 23.388 6.81858 22.5348L0 0H5.74004L10.3101 15.3942L13.2898 8.43898C13.9662 6.71409 15.5932 5.58271 17.4212 5.58271C19.2675 5.58271 20.9127 6.73263 21.5708 8.47607Z">
+                            </path>
+                            <path d="M34.9338 0H29.1024L26.4151 8.9212H32.1735L34.9338 0Z"></path>
+                        </svg><i></i>
+                        <p class="bottom-logo-des">WOO Network connects traders, exchanges, institutions, and DeFi
+                            platforms with democratized access to the best-in-class liquidity and trading execution at
+                            zero or low cost.</p>
+                    </div>
+                    <div class="bottom-nav-bar">
+                        <ul>
+                            <h3>Support</h3><a class="external-link" href="https://support.woo.org/hc/en-001/articles/4404611795353--Trading-Fees" target="_blank" rel="noopener noreferrer">
+                                <li>Trading Fees</li>
+                            </a><a class="external-link" href="https://support.woo.org/hc/en-001" target="_blank" rel="noopener noreferrer">
+                                <li>Support Center</li>
+                            </a><a class="external-link" href="https://docs.woo.network/#introduction" target="_blank" rel="noopener noreferrer">
+                                <li>API Documentation</li>
+                            </a><a class="external-link" href="https://bugcrowd.com/woo-network" target="_blank" rel="noopener noreferrer">
+                                <li>Bug Bounty Program</li>
+                            </a><a class="external-link" href="https://learn.woo.org" target="_blank" rel="noopener noreferrer">
+                                <li>FAQ</li>
+                            </a>
+                        </ul>
+                        <ul>
+                            <h3>About Us</h3>
+                            <li><a href="https://woo.org/network" target="_blank">WOO Network</a></li>
+                            <li><a href="https://woo.org/team" target="_blank">Our Team</a></li>
+                            <li><a href="https://woo.org/careers" target="_blank">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="bottom-connect">
+                        <div class="connect-title">Stay Connected</div>
+                        <ul>
+						   <li><a aria-label="Twitter" class="external-link"  target="_blank" rel="noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M23.25 5.13095C22.4222 5.49272 21.5325 5.73636 20.5988 5.84619C21.5522 5.28415 22.2844 4.39356 22.6284 3.33224C21.7369 3.85275 20.7487 4.23113 19.6969 4.43509C18.8559 3.55189 17.655 3 16.3275 3C13.3472 3 11.1572 5.73728 11.8303 8.57886C7.995 8.38966 4.59375 6.5808 2.31656 3.83152C1.10719 5.87387 1.68938 8.54563 3.74437 9.89858C2.98875 9.87459 2.27625 9.67063 1.65469 9.33009C1.60406 11.4352 3.13687 13.4046 5.35687 13.843C4.70719 14.0165 3.99563 14.0571 3.27188 13.9205C3.85875 15.7257 5.56313 17.039 7.58437 17.0759C5.64375 18.5737 3.19875 19.2428 0.75 18.9586C2.79281 20.2478 5.22 21 7.82625 21C16.3969 21 21.2391 13.8744 20.9466 7.48339C21.8484 6.84198 22.6313 6.04184 23.25 5.13095Z">
+								</path>
+							</svg></a></li>
+                            <li><a aria-label="Medium" class="external-link" target="_blank" rel="noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M3.99025 6.51917C4.0165 6.25209 3.91762 5.98862 3.72513 5.80936L1.76513 3.36486V3H7.85337L12.5591 13.6788L16.6961 3H22.5V3.36486L20.8235 5.02803C20.6791 5.1421 20.6074 5.32951 20.6371 5.51512V17.7358C20.6074 17.9205 20.6791 18.1079 20.8235 18.222L22.4606 19.8851V20.25H14.2251V19.8851L15.9218 18.1812C16.088 18.0092 16.088 17.9585 16.088 17.695V7.81747L11.3726 20.2102H10.7356L5.245 7.81747V16.1233C5.1995 16.4719 5.3115 16.8241 5.54862 17.0758L7.7545 19.8444V20.2102H1.5V19.8444L3.70587 17.0758C3.94212 16.8232 4.04712 16.4692 3.99025 16.1233V6.51917Z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a aria-label="Telegram" class="external-link"  target="_blank" rel="noopener noreferrer"><svg width="21" height="18" viewbox="0 0 21 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.43307 12.1339L17.0681 4.21971C17.4471 3.87802 16.9853 3.71158 16.4822 4.02144L5.8254 10.8497L1.22227 9.39046C0.22833 9.08139 0.221037 8.38761 1.44542 7.88879L19.3828 0.86411C20.2022 0.486327 20.9928 1.06411 20.6801 2.33757L17.6254 16.9576C17.412 17.9964 16.7941 18.2449 15.9376 17.765L11.2843 14.2734L9.04762 16.4823C9.04049 16.4893 9.0334 16.4963 9.02634 16.5033C8.77621 16.7506 8.5693 16.9551 8.11653 16.9551L8.43307 12.1339Z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a aria-label="Discord" class="external-link"  target="_blank" rel="noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M20.317 3.65789C18.7873 2.89053 17.147 2.32516 15.4319 2.00136C15.4007 1.99511 15.3695 2.01073 15.3534 2.04196C15.1424 2.45218 14.9087 2.98735 14.7451 3.40799C12.9004 3.10606 11.0652 3.10606 9.25832 3.40799C9.09465 2.978 8.85248 2.45218 8.64057 2.04196C8.62449 2.01177 8.59328 1.99615 8.56205 2.00136C6.84791 2.32413 5.20756 2.88949 3.67693 3.65789C3.66368 3.66414 3.65233 3.67456 3.64479 3.68808C0.533392 8.77013 -0.31895 13.7273 0.0991801 18.6229C0.101072 18.6469 0.11337 18.6698 0.130398 18.6843C2.18321 20.3325 4.17171 21.3331 6.12328 21.9964C6.15451 22.0068 6.18761 21.9943 6.20748 21.9662C6.66913 21.2769 7.08064 20.5502 7.43348 19.7859C7.4543 19.7412 7.43442 19.688 7.39186 19.6703C6.73913 19.3996 6.1176 19.0696 5.51973 18.6948C5.47244 18.6646 5.46865 18.5906 5.51216 18.5552C5.63797 18.4521 5.76382 18.3449 5.88396 18.2366C5.90569 18.2168 5.93598 18.2127 5.96153 18.2252C9.88928 20.1857 14.1415 20.1857 18.023 18.2252C18.0485 18.2116 18.0788 18.2158 18.1015 18.2356C18.2216 18.3439 18.3475 18.4521 18.4742 18.5552C18.5177 18.5906 18.5149 18.6646 18.4676 18.6948C17.8697 19.0769 17.2482 19.3996 16.5945 19.6693C16.552 19.687 16.533 19.7412 16.5538 19.7859C16.9143 20.5491 17.3258 21.2759 17.7789 21.9651C17.7978 21.9943 17.8319 22.0068 17.8631 21.9964C19.8241 21.3331 21.8126 20.3325 23.8654 18.6843C23.8834 18.6698 23.8948 18.6479 23.8967 18.624C24.3971 12.964 23.0585 8.04755 20.3482 3.68912C20.3416 3.67456 20.3303 3.66414 20.317 3.65789ZM8.02002 15.642C6.8375 15.642 5.86313 14.455 5.86313 12.9974C5.86313 11.5397 6.8186 10.3528 8.02002 10.3528C9.23087 10.3528 10.1958 11.5501 10.1769 12.9974C10.1769 14.455 9.22141 15.642 8.02002 15.642ZM15.9947 15.642C14.8123 15.642 13.8379 14.455 13.8379 12.9974C13.8379 11.5397 14.7933 10.3528 15.9947 10.3528C17.2056 10.3528 18.1705 11.5501 18.1516 12.9974C18.1516 14.455 17.2056 15.642 15.9947 15.642Z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a aria-label="Youtube" class="external-link"  target="_blank" rel="noopener noreferrer"><svg width="24" height="17" viewbox="0 0 24 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.1875 4.58265L16.687 8.24312L9.1875 11.9174V4.58265ZM23.25 8.25C23.2219 2.58052 22.7958 0.41201 19.1395 0.16862C15.7603 -0.0568938 8.23547 -0.0555187 4.86187 0.16862C1.20844 0.41201 0.778125 2.57089 0.75 8.25C0.778125 13.9195 1.20422 16.088 4.86047 16.3314C8.23406 16.5555 15.7589 16.5569 19.1381 16.3314C22.7916 16.088 23.2219 13.9291 23.25 8.25Z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a aria-label="Facebook" class="external-link" target="_blank" rel="noopener noreferrer"><svg width="22" height="21" viewbox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21.5 10.6867C21.5 5.06013 16.7996 0.5 11 0.5C5.20039 0.5 0.5 5.06013 0.5 10.6867C0.5 15.7721 4.33906 19.986 9.35938 20.75V13.6313H6.69336V10.6867H9.35938V8.44242C9.35938 5.88979 10.9262 4.47917 13.3256 4.47917C14.474 4.47917 15.6758 4.67813 15.6758 4.67813V7.18501H14.351C13.0467 7.18501 12.6406 7.97089 12.6406 8.77668V10.6867H15.5527L15.0872 13.6313H12.6406V20.75C17.6609 19.986 21.5 15.7721 21.5 10.6867Z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a aria-label="Linkedin" class="external-link"  target="_blank" rel="noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.6875 1.5H6.3125C4.06919 1.5 2.25 3.31919 2.25 5.5625V16.9375C2.25 19.1808 4.06919 21 6.3125 21H17.6875C19.9316 21 21.75 19.1808 21.75 16.9375V5.5625C21.75 3.31919 19.9316 1.5 17.6875 1.5ZM8.75 16.9375H6.3125V8H8.75V16.9375ZM7.53125 6.96975C6.74638 6.96975 6.10938 6.32788 6.10938 5.5365C6.10938 4.74513 6.74638 4.10325 7.53125 4.10325C8.31612 4.10325 8.95312 4.74513 8.95312 5.5365C8.95312 6.32788 8.31694 6.96975 7.53125 6.96975ZM18.5 16.9375H16.0625V12.3842C16.0625 9.64775 12.8125 9.85494 12.8125 12.3842V16.9375H10.375V8H12.8125V9.43406C13.9467 7.33294 18.5 7.17775 18.5 11.4458V16.9375Z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a aria-label="Instagram" class="external-link"  target="_blank" rel="noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.9958 6.60936C9.02083 6.60936 6.60416 9.02234 6.60416 12.0021C6.60416 14.9819 9.01666 17.3948 11.9958 17.3948C14.975 17.3948 17.3875 14.9819 17.3875 12.0021C17.3875 9.02234 14.975 6.60936 11.9958 6.60936ZM11.9958 15.4986C10.0625 15.4986 8.49583 13.9316 8.49583 11.9979C8.49583 10.0642 10.0625 8.49723 11.9958 8.49723C13.9292 8.49723 15.4958 10.0642 15.4958 11.9979C15.4958 13.9316 13.9292 15.4986 11.9958 15.4986Z">
+                                        </path>
+                                        <path d="M18.8583 6.39263C18.8583 7.08773 18.2949 7.65122 17.6 7.65122C16.905 7.65122 16.3416 7.08773 16.3416 6.39263C16.3416 5.69754 16.905 5.13405 17.6 5.13405C18.2949 5.13405 18.8583 5.69754 18.8583 6.39263Z">
+                                        </path>
+                                        <path d="M11.9958 1.5C9.14583 1.5 8.7875 1.5125 7.66667 1.56251C6.55 1.61252 5.7875 1.79172 5.12083 2.05011C4.42917 2.31683 3.84583 2.6794 3.2625 3.26285C2.67917 3.8463 2.32083 4.43392 2.05 5.12155C1.79167 5.78835 1.6125 6.551 1.5625 7.67206C1.5125 8.78895 1.5 9.14735 1.5 11.9979C1.5 14.8485 1.5125 15.2069 1.5625 16.3279C1.6125 17.4448 1.79167 18.2075 2.05 18.8784C2.31667 19.5703 2.67917 20.1537 3.2625 20.7372C3.84583 21.3206 4.43333 21.679 5.12083 21.9499C5.7875 22.2083 6.55 22.3875 7.67083 22.4375C8.79167 22.4875 9.14583 22.5 12 22.5C14.8542 22.5 15.2083 22.4875 16.3292 22.4375C17.4458 22.3875 18.2083 22.2083 18.8792 21.9499C19.5708 21.6832 20.1542 21.3206 20.7375 20.7372C21.3208 20.1537 21.6792 19.5661 21.95 18.8784C22.2083 18.2116 22.3875 17.449 22.4375 16.3279C22.4875 15.2069 22.5 14.8526 22.5 11.9979C22.5 9.14318 22.4875 8.78895 22.4375 7.66789C22.3875 6.551 22.2083 5.78835 21.95 5.11738C21.6833 4.42558 21.3208 3.84213 20.7375 3.25868C20.1542 2.67523 19.5667 2.31683 18.8792 2.04594C18.2125 1.78756 17.45 1.60835 16.3292 1.55834C15.2042 1.5125 14.8458 1.5 11.9958 1.5ZM11.9958 3.39204C14.8 3.39204 15.1292 3.40454 16.2375 3.45455C17.2625 3.5004 17.8167 3.67126 18.1875 3.81713C18.6792 4.00883 19.0292 4.23388 19.3958 4.60062C19.7625 4.96735 19.9917 5.31742 20.1792 5.80919C20.3208 6.1801 20.4958 6.73437 20.5417 7.75958C20.5917 8.86813 20.6042 9.19736 20.6042 12.0021C20.6042 14.8068 20.5917 15.136 20.5417 16.2446C20.4958 17.2698 20.325 17.8241 20.1792 18.195C19.9875 18.6867 19.7625 19.0368 19.3958 19.4036C19.0292 19.7703 18.6792 19.9995 18.1875 20.187C17.8167 20.3287 17.2625 20.5038 16.2375 20.5496C15.1292 20.5996 14.8 20.6121 11.9958 20.6121C9.19167 20.6121 8.8625 20.5996 7.75417 20.5496C6.72917 20.5038 6.175 20.3329 5.80417 20.187C5.3125 19.9953 4.9625 19.7703 4.59583 19.4036C4.22917 19.0368 4 18.6867 3.8125 18.195C3.67083 17.8241 3.49583 17.2698 3.45 16.2446C3.4 15.136 3.3875 14.8068 3.3875 12.0021C3.3875 9.19736 3.4 8.86813 3.45 7.75958C3.49583 6.73437 3.66667 6.1801 3.8125 5.80919C4.00417 5.31742 4.22917 4.96735 4.59583 4.60062C4.9625 4.23388 5.3125 4.00466 5.80417 3.81713C6.175 3.67543 6.72917 3.5004 7.75417 3.45455C8.8625 3.40038 9.19583 3.39204 11.9958 3.39204Z">
+                                        </path>
+                                    </svg></a></li>
+                            <li><a aria-label="CoinMarketCap" class="external-link"  target="_blank" rel="noopener noreferrer"><svg width="24" height="24" viewbox="0 0 24 24" fill="none">
+                                        <g clip-path="url(#clip0_4587_30544)">
+                                            <path d="M23.9929 12V11.9535C23.9693 5.37209 18.5851 0 11.9965 0C5.40785 0 0 5.37209 0 12C0 18.6279 5.38424 24 11.9965 24C15.0428 24 17.9238 22.8605 20.1437 20.7907C20.5923 20.3721 20.616 19.6977 20.1909 19.2558C19.7894 18.814 19.1046 18.7907 18.6559 19.186L18.6323 19.2093C16.8375 20.8837 14.4288 21.8372 11.9492 21.8372C9.04457 21.8372 6.44691 20.5814 4.65217 18.5814L9.77664 10.4884V14.2326C9.77664 16.0233 10.4851 16.6047 11.0755 16.7674C11.6658 16.9302 12.5632 16.814 13.5314 15.3023L16.3416 10.814C16.4361 10.6744 16.5069 10.5349 16.6014 10.4419V12.7209C16.6014 14.3953 17.2862 15.7442 18.467 16.3953C19.5297 17 20.8757 16.9302 21.9856 16.2558C23.3553 15.3721 24.0874 13.8372 23.9929 12ZM20.8757 14.3488C20.4506 14.6047 19.9547 14.6512 19.5769 14.4419C19.1046 14.1628 18.8212 13.5349 18.8212 12.6744V10.0465C18.8212 8.7907 18.3253 7.88372 17.4752 7.65116C16.0346 7.23256 14.9483 8.97674 14.5469 9.62791L11.9965 13.6512V8.69767C11.9728 7.55814 11.595 6.88372 10.8865 6.67442C10.4142 6.53488 9.70579 6.60465 9.02096 7.62791L3.32972 16.6047C2.57404 15.186 2.17259 13.6047 2.17259 12C2.17259 6.5814 6.5886 2.18605 11.9965 2.18605C17.4043 2.18605 21.8203 6.5814 21.8203 12V12.0465C21.8676 13.093 21.5369 13.9302 20.8757 14.3488Z" fill="#A4A4A4"></path>
+                                        </g>
+                                        <defs>
+                                            <clippath id="clip0_4587_30544">
+                                                <rect width="24" height="24" fill="white"></rect>
+                                            </clippath>
+                                        </defs>
+                                    </svg></a></li>
+                        </ul>
+                        <p class="bottom-des">WOO Network connects traders, exchanges, institutions, and DeFi platforms
+                            with democratized access to the best-in-class liquidity and trading execution at zero or low
+                            cost.</p>
+                        <p class="bottom-copyright">Copyright © 2022 WOO Network.
+                            All Rights Reserved.</p>
+                        <p class="bottom-policy"><a href="https://support.woo.org/hc/en-001/articles/4403851854233-Terms-of-service" target="_blank">Terms of Service</a>｜ <a>Privacy Policy</a></p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="layout">
+                <footer>
+                    <p style="text-align: center;">©Copyright 2022. All Rights Reserved.</p>
+                </footer>
+            </div> -->
+        </div>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"wjyQgxegk_lAJURtth2Zf","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
+    <next-route-announcer>
+        <p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;">
+        </p>
+    </next-route-announcer><textarea id="BFI_DATA" style="width: 1px; height: 1px; display: none;"></textarea>
+    <title> </title>
+    <textarea id="BFI_DATA" style="width: 1px; height: 1px; display: none;"></textarea>
+    <title> </title>
+</body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
+
+</html>
